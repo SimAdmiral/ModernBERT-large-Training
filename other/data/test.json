@@ -1,0 +1,42 @@
+[
+  {
+    "tokens": ["Sandworm", "Team", "deployed", "BlackEnergy", "against", "energy", "grids", "."],
+    "ner_tags": ["B-CTI_GROUP", "L-CTI_GROUP", "O", "U-MALWARE", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["The", "campaign", "relied", "heavily", "on", "Drive-by", "Compromise", "to", "infect", "hosts", "."],
+    "ner_tags": ["O", "O", "O", "O", "O", "B-MITRE_TECHNIQUE", "L-MITRE_TECHNIQUE", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Adversaries", "used", "Metasploit", "framework", "to", "establish", "Command", "and", "Control", "."],
+    "ner_tags": ["O", "O", "U-TOOL", "O", "O", "O", "B-MITRE_TACTIC", "I-MITRE_TACTIC", "L-MITRE_TACTIC", "O"]
+  },
+  {
+    "tokens": ["IOC:", "http://phishing-login.com/auth.php", "and", "malicious-site.org", "."],
+    "ner_tags": ["O", "U-URL", "O", "U-DOMAIN", "O"]
+  },
+  {
+    "tokens": ["REvil", "demanded", "50", "million", "USD", "after", "encrypting", "files", "."],
+    "ner_tags": ["U-CTI_GROUP", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Process", "Hollowing", "is", "a", "technique", "used", "to", "evade", "detection", "."],
+    "ner_tags": ["B-MITRE_TECHNIQUE", "L-MITRE_TECHNIQUE", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Traffic", "to", "c2.apt-update.com", "was", "blocked", "by", "the", "proxy", "."],
+    "ner_tags": ["O", "O", "U-DOMAIN", "O", "O", "O", "O", "O", "O"]
+  },
+   {
+    "tokens": ["FIN6", "targets", "e-commerce", "sites", "to", "steal", "payment", "data", "."],
+    "ner_tags": ["U-CTI_GROUP", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Credential", "Stuffing", "was", "observed", "against", "the", "login", "portal", "."],
+    "ner_tags": ["B-MITRE_TECHNIQUE", "L-MITRE_TECHNIQUE", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Report", "any", "activity", "from", "192.168.1.100", "or", "bad-files.com", "."],
+    "ner_tags": ["O", "O", "O", "O", "O", "O", "U-DOMAIN", "O"]
+  }
+]

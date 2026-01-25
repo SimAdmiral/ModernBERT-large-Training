@@ -1,0 +1,150 @@
+[
+  {
+    "text": "APT28 used Spear Phishing to deploy Emotet via https://malware.site/download",
+    "entities": [
+      { "start": 0, "end": 5, "label": "CTI_GROUP" },
+      { "start": 11, "end": 25, "label": "MITRE_TECHNIQUE" },
+      { "start": 36, "end": 42, "label": "MALWARE" },
+      { "start": 47, "end": 77, "label": "URL" }
+    ]
+  },
+  {
+    "text": "Lazarus executed Operation Aurora using Cobalt Strike",
+    "entities": [
+      { "start": 0, "end": 7, "label": "CTI_GROUP" },
+      { "start": 17, "end": 33, "label": "CTI_CAMPAIGN" },
+      { "start": 40, "end": 53, "label": "MALWARE" }
+    ]
+  },
+  {
+    "text": "FIN7 relied on PsExec for lateral movement",
+    "entities": [
+      { "start": 0, "end": 4, "label": "CTI_GROUP" },
+      { "start": 14, "end": 20, "label": "TOOL" },
+      { "start": 25, "end": 42, "label": "MITRE_TACTIC" }
+    ]
+  },
+  {
+    "text": "Sandworm Campaign leveraged PlugX malware",
+    "entities": [
+      { "start": 0, "end": 17, "label": "CTI_CAMPAIGN" },
+      { "start": 28, "end": 33, "label": "MALWARE" }
+    ]
+  },
+  {
+    "text": "APT1 delivered Hydraq through malicious emails",
+    "entities": [
+      { "start": 0, "end": 4, "label": "CTI_GROUP" },
+      { "start": 14, "end": 20, "label": "MALWARE" }
+    ]
+  },
+  {
+    "text": "Attackers downloaded payloads from evil.example.com",
+    "entities": [
+      { "start": 36, "end": 52, "label": "DOMAIN" }
+    ]
+  },
+  {
+    "text": "Credential Access was achieved using Mimikatz",
+    "entities": [
+      { "start": 0, "end": 18, "label": "MITRE_TACTIC" },
+      { "start": 36, "end": 44, "label": "TOOL" }
+    ]
+  },
+  {
+    "text": "Operation Shadow targeted systems via Spear Phishing",
+    "entities": [
+      { "start": 0, "end": 16, "label": "CTI_CAMPAIGN" },
+      { "start": 37, "end": 51, "label": "MITRE_TECHNIQUE" }
+    ]
+  },
+  {
+    "text": "TrickBot contacted update.driver-soft.com for updates",
+    "entities": [
+      { "start": 0, "end": 8, "label": "MALWARE" },
+      { "start": 19, "end": 42, "label": "DOMAIN" }
+    ]
+  },
+  {
+    "text": "Metasploit was used during Defense Evasion",
+    "entities": [
+      { "start": 0, "end": 10, "label": "TOOL" },
+      { "start": 27, "end": 43, "label": "MITRE_TACTIC" }
+    ]
+  },
+
+  {
+    "text": "APT28 accessed http://bad.com/update.exe to deliver payloads",
+    "entities": [
+      { "start": 0, "end": 5, "label": "CTI_GROUP" },
+      { "start": 14, "end": 41, "label": "URL" }
+    ]
+  },
+  {
+    "text": "Night Dragon used net.exe for persistence",
+    "entities": [
+      { "start": 0, "end": 12, "label": "CTI_CAMPAIGN" },
+      { "start": 18, "end": 25, "label": "TOOL" },
+      { "start": 30, "end": 41, "label": "MITRE_TACTIC" }
+    ]
+  },
+  {
+    "text": "Cobalt Strike beaconed to malicious.badsite.net",
+    "entities": [
+      { "start": 0, "end": 13, "label": "MALWARE" },
+      { "start": 27, "end": 50, "label": "DOMAIN" }
+    ]
+  },
+  {
+    "text": "APT1 performed T1059 for execution",
+    "entities": [
+      { "start": 0, "end": 4, "label": "CTI_GROUP" },
+      { "start": 15, "end": 20, "label": "MITRE_TECHNIQUE" }
+    ]
+  },
+  {
+    "text": "Hydraq malware spread via spear phishing emails",
+    "entities": [
+      { "start": 0, "end": 6, "label": "MALWARE" },
+      { "start": 26, "end": 41, "label": "MITRE_TECHNIQUE" }
+    ]
+  },
+
+  {
+    "text": "Lazarus deployed PowerShell scripts for lateral movement",
+    "entities": [
+      { "start": 0, "end": 7, "label": "CTI_GROUP" },
+      { "start": 16, "end": 26, "label": "TOOL" },
+      { "start": 39, "end": 56, "label": "MITRE_TACTIC" }
+    ]
+  },
+  {
+    "text": "Attackers staged malware at https://evil.example.org/payload",
+    "entities": [
+      { "start": 28, "end": 64, "label": "URL" }
+    ]
+  },
+  {
+    "text": "FIN7 executed Defense Evasion techniques",
+    "entities": [
+      { "start": 0, "end": 4, "label": "CTI_GROUP" },
+      { "start": 14, "end": 30, "label": "MITRE_TACTIC" }
+    ]
+  },
+  {
+    "text": "Sandworm used Metasploit during Operation Aurora",
+    "entities": [
+      { "start": 0, "end": 8, "label": "CTI_GROUP" },
+      { "start": 14, "end": 24, "label": "TOOL" },
+      { "start": 32, "end": 48, "label": "CTI_CAMPAIGN" }
+    ]
+  },
+  {
+    "text": "APT28 targeted google.com for command and control",
+    "entities": [
+      { "start": 0, "end": 5, "label": "CTI_GROUP" },
+      { "start": 15, "end": 25, "label": "DOMAIN" }
+    ]
+  }
+
+]

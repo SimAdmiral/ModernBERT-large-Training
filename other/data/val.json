@@ -1,0 +1,50 @@
+[
+  {
+    "tokens": ["The", "Wizard", "Spider", "group", "is", "known", "for", "distributing", "TrickBot", "."],
+    "ner_tags": ["O", "B-CTI_GROUP", "L-CTI_GROUP", "O", "O", "O", "O", "O", "U-MALWARE", "O"]
+  },
+  {
+    "tokens": ["Review", "logs", "for", "T1086", "PowerShell", "execution", "linked", "to", "http://evil-corp.com/rat.ps1", "."],
+    "ner_tags": ["O", "O", "O", "U-MITRE_TECHNIQUE", "U-TOOL", "O", "O", "O", "U-URL", "O"]
+  },
+  {
+    "tokens": ["During", "Operation", "Cloud", "Hopper", ",", "actors", "targeted", "MSPs", "for", "Exfiltration", "."],
+    "ner_tags": ["O", "B-CTI_CAMPAIGN", "I-CTI_CAMPAIGN", "L-CTI_CAMPAIGN", "O", "O", "O", "O", "O", "U-MITRE_TACTIC", "O"]
+  },
+  {
+    "tokens": ["Check", "the", "firewall", "for", "connections", "to", "update.microsoft-kernel.io", "."],
+    "ner_tags": ["O", "O", "O", "O", "O", "O", "U-DOMAIN", "O"]
+  },
+  {
+    "tokens": ["Cozy", "Bear", "used", "HAMMERTOSS", "to", "hide", "commands", "in", "images", "."],
+    "ner_tags": ["B-CTI_GROUP", "L-CTI_GROUP", "O", "U-MALWARE", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Lateral", "Movement", "was", "conducted", "using", "WMI", "and", "SMB", "shares", "."],
+    "ner_tags": ["B-MITRE_TACTIC", "L-MITRE_TACTIC", "O", "O", "O", "U-TOOL", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Identify", "processes", "spawned", "by", "cmd.exe", "or", "powershell.exe", "."],
+    "ner_tags": ["O", "O", "O", "O", "U-TOOL", "O", "U-TOOL", "O"]
+  },
+  {
+    "tokens": ["The", "group", "exploited", "CVE-2021-44228", "for", "Remote", "Code", "Execution", "."],
+    "ner_tags": ["O", "O", "O", "O", "O", "B-MITRE_TECHNIQUE", "I-MITRE_TECHNIQUE", "L-MITRE_TECHNIQUE", "O"]
+  },
+   {
+    "tokens": ["Threat", "actors", "APT33", "deployed", "Shamoon", "wiper", "malware", "."],
+    "ner_tags": ["O", "O", "U-CTI_GROUP", "O", "U-MALWARE", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Check", "for", "scheduled", "tasks", "referencing", "C:\\Temp\\nc.exe", "."],
+    "ner_tags": ["O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["The", "file", "beacon.dll", "communicates", "with", "https://api.telegram.org/bot123", "."],
+    "ner_tags": ["O", "O", "O", "O", "O", "U-URL", "O"]
+  },
+  {
+    "tokens": ["Tim", "stole", "credentials", "using", "Mimikatz", "v2.2", "."],
+    "ner_tags": ["O", "O", "O", "O", "U-TOOL", "O", "O"]
+  }
+]

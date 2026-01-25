@@ -1,0 +1,182 @@
+[
+  {
+    "tokens": ["The", "Lazarus", "Group", "deployed", "NukeSped", "malware", "to", "achieve", "Persistence", "."],
+    "ner_tags": ["O", "B-CTI_GROUP", "L-CTI_GROUP", "O", "U-MALWARE", "O", "O", "O", "U-MITRE_TACTIC", "O"]
+  },
+  {
+    "tokens": ["Analysts", "detected", "communication", "to", "bad-update.net", "using", "Cobalt", "Strike", "beacons", "."],
+    "ner_tags": ["O", "O", "O", "O", "U-DOMAIN", "O", "B-MALWARE", "L-MALWARE", "O", "O"]
+  },
+  {
+    "tokens": ["Operation", "Aurora", "targeted", "several", "companies", "via", "Spear", "Phishing", "Attachment", "."],
+    "ner_tags": ["B-CTI_CAMPAIGN", "L-CTI_CAMPAIGN", "O", "O", "O", "O", "B-MITRE_TECHNIQUE", "I-MITRE_TECHNIQUE", "L-MITRE_TECHNIQUE", "O"]
+  },
+  {
+    "tokens": ["Download", "the", "payload", "from", "http://192.168.1.10/setup.exe", "using", "curl", "or", "wget", "."],
+    "ner_tags": ["O", "O", "O", "O", "U-URL", "O", "U-TOOL", "O", "U-TOOL", "O"]
+  },
+  {
+    "tokens": ["APT28", "executed", "T1059", "Command", "and", "Scripting", "Interpreter", "to", "run", "Mimikatz", "."],
+    "ner_tags": ["U-CTI_GROUP", "O", "U-MITRE_TECHNIQUE", "B-MITRE_TECHNIQUE", "I-MITRE_TECHNIQUE", "I-MITRE_TECHNIQUE", "L-MITRE_TECHNIQUE", "O", "O", "U-TOOL", "O"]
+  },
+  {
+    "tokens": ["The", "SolarWinds", "Supply", "Chain", "Compromise", "allowed", "attackers", "Initial", "Access", "."],
+    "ner_tags": ["O", "B-CTI_CAMPAIGN", "I-CTI_CAMPAIGN", "I-CTI_CAMPAIGN", "L-CTI_CAMPAIGN", "O", "O", "B-MITRE_TACTIC", "L-MITRE_TACTIC", "O"]
+  },
+  {
+    "tokens": ["FIN7", "often", "utilizes", "Carbanak", "backdoors", "against", "financial", "institutions", "."],
+    "ner_tags": ["U-CTI_GROUP", "O", "O", "U-MALWARE", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Suspicious", "traffic", "observed", "at", "api.telegram-update.com", "indicating", "C2", "activity", "."],
+    "ner_tags": ["O", "O", "O", "O", "U-DOMAIN", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Attackers", "used", "PsExec", "to", "move", "laterally", "and", "dropped", "Ryuk", "ransomware", "."],
+    "ner_tags": ["O", "O", "U-TOOL", "O", "O", "O", "O", "O", "U-MALWARE", "O", "O"]
+  },
+  {
+    "tokens": ["Credential", "Access", "was", "attempted", "via", "brute", "force", "on", "ssh.server.org", "."],
+    "ner_tags": ["B-MITRE_TACTIC", "L-MITRE_TACTIC", "O", "O", "O", "B-MITRE_TECHNIQUE", "L-MITRE_TECHNIQUE", "O", "U-DOMAIN", "O"]
+  },
+  {
+    "tokens": ["The", "Fancy", "Bear", "actors", "exploited", "a", "vulnerability", "to", "install", "X-Agent", "."],
+    "ner_tags": ["O", "B-CTI_GROUP", "L-CTI_GROUP", "O", "O", "O", "O", "O", "O", "U-MALWARE", "O"]
+  },
+  {
+    "tokens": ["Adversaries", "performed", "Indicator", "Removal", "on", "Host", "to", "hide", "tracks", "."],
+    "ner_tags": ["O", "O", "B-MITRE_TECHNIQUE", "I-MITRE_TECHNIQUE", "I-MITRE_TECHNIQUE", "L-MITRE_TECHNIQUE", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Use", "Nmap", "to", "scan", "the", "subnet", "10.0.0.0/24", "for", "open", "ports", "."],
+    "ner_tags": ["O", "U-TOOL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["The", "campaign", "Operation", "Dream", "Job", "targeted", "aerospace", "employees", "."],
+    "ner_tags": ["O", "O", "B-CTI_CAMPAIGN", "I-CTI_CAMPAIGN", "L-CTI_CAMPAIGN", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Malicious", "binary", "hosted", "at", "http://dl.dropboxuser.com/u/123/malware.zip", "."],
+    "ner_tags": ["O", "O", "O", "O", "U-URL", "O"]
+  },
+  {
+    "tokens": ["OilRig", "uses", "DNS", "Tunneling", "for", "Command", "and", "Control", "."],
+    "ner_tags": ["U-CTI_GROUP", "O", "B-MITRE_TECHNIQUE", "L-MITRE_TECHNIQUE", "O", "B-MITRE_TACTIC", "I-MITRE_TACTIC", "L-MITRE_TACTIC", "O"]
+  },
+  {
+    "tokens": ["WinRAR", "was", "used", "to", "compress", "stolen", "data", "before", "exfiltration", "."],
+    "ner_tags": ["U-TOOL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["The", "domain", "update.adobe-flash-player.com", "resolves", "to", "a", "sinkhole", "."],
+    "ner_tags": ["O", "O", "U-DOMAIN", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Turla", "group", "utilized", "Snake", "rootkit", "against", "government", "entities", "."],
+    "ner_tags": ["U-CTI_GROUP", "O", "O", "U-MALWARE", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Defense", "Evasion", "was", "achieved", "by", "disabling", "antivirus", "software", "."],
+    "ner_tags": ["B-MITRE_TACTIC", "L-MITRE_TACTIC", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Monitor", "for", "T1003", "OS", "Credential", "Dumping", "in", "event", "logs", "."],
+    "ner_tags": ["O", "O", "U-MITRE_TECHNIQUE", "B-MITRE_TECHNIQUE", "I-MITRE_TECHNIQUE", "L-MITRE_TECHNIQUE", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Thallium", "is", "a", "threat", "actor", "targeting", "activists", "via", "phishing", "."],
+    "ner_tags": ["U-CTI_GROUP", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Payload", "delivered", "from", "https://cdn.discordapp.com/attachments/file.exe", "."],
+    "ner_tags": ["O", "O", "O", "U-URL", "O"]
+  },
+  {
+    "tokens": ["Netcat", "was", "found", "on", "the", "compromised", "server", "listening", "on", "port", "4444", "."],
+    "ner_tags": ["U-TOOL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["The", "attack", "attributed", "to", "Deep", "Panda", "involved", "web", "shells", "."],
+    "ner_tags": ["O", "O", "O", "O", "B-CTI_GROUP", "L-CTI_GROUP", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Maze", "Ransomware", "operators", "threatened", "to", "publish", "data", "."],
+    "ner_tags": ["B-MALWARE", "L-MALWARE", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["T1566", "Phishing", "is", "the", "primary", "vector", "for", "Initial", "Access", "."],
+    "ner_tags": ["U-MITRE_TECHNIQUE", "U-MITRE_TECHNIQUE", "O", "O", "O", "O", "O", "B-MITRE_TACTIC", "L-MITRE_TACTIC", "O"]
+  },
+  {
+    "tokens": ["Connect", "via", "RDP", "to", "remote.support-logon.net", "immediately", "."],
+    "ner_tags": ["O", "O", "U-TOOL", "O", "U-DOMAIN", "O", "O"]
+  },
+  {
+    "tokens": ["Emotet", "downloader", "dropped", "TrickBot", "which", "deployed", "Ryuk", "."],
+    "ner_tags": ["U-MALWARE", "O", "O", "U-MALWARE", "O", "O", "U-MALWARE", "O"]
+  },
+  {
+    "tokens": ["Operation", "Soft", "Cell", "targeted", "telecommunications", "providers", "globally", "."],
+    "ner_tags": ["B-CTI_CAMPAIGN", "I-CTI_CAMPAIGN", "L-CTI_CAMPAIGN", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["The", "operators", "of", "DarkSide", "ransomware", "utilized", "Rclone", "for", "data", "exfiltration", "."],
+    "ner_tags": ["O", "O", "O", "U-CTI_GROUP", "U-MALWARE", "O", "U-TOOL", "O", "O", "U-MITRE_TACTIC", "O"]
+  },
+  {
+    "tokens": ["Suspicious", "traffic", "to", "c2.evil-empire.com", "was", "linked", "to", "APT29", "activity", "."],
+    "ner_tags": ["O", "O", "O", "U-DOMAIN", "O", "O", "O", "U-CTI_GROUP", "O", "O"]
+  },
+  {
+    "tokens": ["Adversaries", "executed", "T1055", "Process", "Injection", "to", "hide", "the", "payload", "."],
+    "ner_tags": ["O", "O", "U-MITRE_TECHNIQUE", "B-MITRE_TECHNIQUE", "L-MITRE_TECHNIQUE", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["During", "Operation", "Pawn", "Storm", ",", "the", "attackers", "targeted", "NATO", "members", "."],
+    "ner_tags": ["O", "B-CTI_CAMPAIGN", "I-CTI_CAMPAIGN", "L-CTI_CAMPAIGN", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Download", "the", "malicious", "driver", "from", "http://10.0.0.5/drivers/update.sys", "."],
+    "ner_tags": ["O", "O", "O", "O", "O", "U-URL", "O"]
+  },
+  {
+    "tokens": ["Use", "CertUtil", "to", "decode", "the", "file", "and", "execute", "via", "cmd.exe", "."],
+    "ner_tags": ["O", "U-TOOL", "O", "O", "O", "O", "O", "O", "O", "U-TOOL", "O"]
+  },
+  {
+    "tokens": ["The", "MuddyWater", "group", "primarily", "targets", "Middle", "Eastern", "nations", "."],
+    "ner_tags": ["O", "B-CTI_GROUP", "L-CTI_GROUP", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Persistence", "was", "established", "using", "Registry", "Run", "Keys", "."],
+    "ner_tags": ["U-MITRE_TACTIC", "O", "O", "O", "B-MITRE_TECHNIQUE", "I-MITRE_TECHNIQUE", "L-MITRE_TECHNIQUE", "O"]
+  },
+  {
+    "tokens": ["Detect", "Cobalt", "Strike", "Named", "Pipes", "in", "the", "system", "logs", "."],
+    "ner_tags": ["O", "B-MALWARE", "L-MALWARE", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["The", "domain", "logon-microsoft-support.com", "is", "hosting", "a", "phishing", "kit", "."],
+    "ner_tags": ["O", "O", "U-DOMAIN", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Attackers", "exploited", "SMB", "via", "EternalBlue", "to", "spread", "WannaCry", "."],
+    "ner_tags": ["O", "O", "O", "O", "U-TOOL", "O", "O", "U-MALWARE", "O"]
+  },
+  {
+    "tokens": ["Reconnaissance", "phase", "involved", "scanning", "with", "Masscan", "."],
+    "ner_tags": ["U-MITRE_TACTIC", "O", "O", "O", "O", "U-TOOL", "O"]
+  },
+  {
+    "tokens": ["The", "campaign", "Operation", "Cobra", "Venom", "used", "custom", "malware", "."],
+    "ner_tags": ["O", "O", "B-CTI_CAMPAIGN", "I-CTI_CAMPAIGN", "L-CTI_CAMPAIGN", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Review", "traffic", "on", "port", "8080", "destined", "for", "proxy.bad-site.org", "."],
+    "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "U-DOMAIN", "O"]
+  },
+  {
+    "tokens": ["T1204", "User", "Execution", "is", "required", "for", "the", "macro", "to", "run", "."],
+    "ner_tags": ["U-MITRE_TECHNIQUE", "B-MITRE_TECHNIQUE", "L-MITRE_TECHNIQUE", "O", "O", "O", "O", "O", "O", "O"]
+  }
+]
